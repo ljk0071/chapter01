@@ -10,7 +10,6 @@ public class Ex14 {
 		Scanner a = new Scanner(System.in);
 		width = a.nextInt();
 		System.out.print("세로를 입력하세요: ");
-		Scanner a = new Scanner(System.in);
 		height = a.nextInt();
 		circ = (2*width) + (2*height);
 		area = width * height;
