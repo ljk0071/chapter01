@@ -11,10 +11,11 @@ public class Ex05 {
 		if (time < 8) {
 			int payment = time * 10000;
 			System.out.println(payment);
-		} else {
+		}
+		 else {
 			double payment = 80000 + ( (10000 * (double)1.5) * (time - 8));
 			System.out.println((int)payment);
-		}
+		 }
 		num.close();
 	}
 
