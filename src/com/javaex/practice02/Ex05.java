@@ -18,6 +18,7 @@ public class Ex05 {
 		}else {
 			System.out.println("과체중 입니다.");
 		}
+		System.out.printf("표준체중: %f", normalWeight);
 		num.close();
 	}
 
