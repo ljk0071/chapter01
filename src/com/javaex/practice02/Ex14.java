@@ -12,7 +12,7 @@ public class Ex14 {
 			System.out.printf("소득세는 %f 입니다.", money*0.09);
 		}else if ( money > 1000 && money <= 4000) {
 			System.out.printf("소득세는 %f 입니다.", (1000*0.09)+(0.18*(money-1000)));
-		}else if ( money > 4000 && money <= 8000) {
+		}else if ( money > 4000 && money < 8000) {
 			System.out.printf("소득세는 %f 입니다.", (1000*0.09)+((3000*0.18)+(0.27*(money-4000))));
 		}else if ( money >= 8000 ) {
 			System.out.printf("소득세는 %f 입니다.", (1000*0.09)+((3000*0.18)+(4000*0.27)+(0.36*(money-8000))));
