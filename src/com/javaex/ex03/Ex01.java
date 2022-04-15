@@ -1,9 +1,20 @@
 package com.javaex.ex03;
 
-public class Ex01 {
-	public static void main(String[] args) {
-		int countOfLettersInString;
-		int _person;
-	}
+import java.util.Scanner;
 
-}
+public class Ex01 {
+
+	public static void main(String[] args) {
+		System.out.print("점수:");
+		Scanner a = new Scanner(System.in);
+		int score = a.nextInt();
+		
+		if (score >= 60) {
+			System.out.println("합격입니다");
+		} else {
+			System.out.println("");
+			}
+		a.close();
+		}
+	
+	}
