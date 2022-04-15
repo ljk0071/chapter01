@@ -16,7 +16,7 @@ public class Ex20 {
 		int ten = coin.nextInt();
 		int result = (five*500) + (hund*100) + (fifty*50) + (ten*10);
 		System.out.println("동전의 총합은 "+ result +" 원 입니다.");
-                coin.close();
+        coin.close();
 		
 	}
 
