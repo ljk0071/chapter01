@@ -10,7 +10,7 @@ public class Ex06 {
 		int num = a.nextInt();
 		if (num % 3 == 0) {
 			System.out.printf("%d은 (는) 3의 배수입니다", num);
-		} if ( num % 3 != 0) {
+		} else  {
 			System.out.printf("%d은 (는) 3의 배수가 아닙니다", num);
 		}
 		a.close();
