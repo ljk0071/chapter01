@@ -87,5 +87,6 @@ public class Ex11 {
 			System.out.println("31일 입니다.");
 			break;
 		}
+		a.close();;
 	}
 }
