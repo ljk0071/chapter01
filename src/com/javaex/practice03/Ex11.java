@@ -19,8 +19,8 @@ public class Ex11 {
 		}
 		if ( a%2 == 0) {
 			System.out.printf("결과값: %d", evenSum);
-	}else if (a%2 != 0) {
-		System.out.printf("결고값: %d", oddSum);
+	}else {
+		System.out.printf("결과값: %d", oddSum);
 		
 	}
 		sc.close();
