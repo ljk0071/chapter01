@@ -8,6 +8,30 @@ public class Ex10 {
 				System.out.println(i);
 			}
 		}
+		System.out.println("===================");
+		
+		for (int i=1;i<21;i++) {
+			if (i%2 == 0 || i%3 == 0) {
+				continue;
+			}else {
+				System.out.println(i);
+			}
+		}
+		System.out.println("===================");
+		
+		for (int i=1;i<21;i++) {
+			if (i%2 == 0 || i%3 == 0) {
+			}else {
+				System.out.println(i);
+			}
+		}
+		System.out.println("===================");
+		
+		for (int i=1;i<21;i++) {
+			if(!(i%2==0 || i%3==0)) {
+				System.out.println(i);
+			}
+		}
 	}
 
 }
