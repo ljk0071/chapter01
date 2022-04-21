@@ -10,11 +10,11 @@ public class Ex10 {
 		System.out.println("&& 연산자");
 		System.out.println( true && true );
 		System.out.println( true && false );
-		System.out.println( false && true );
-		System.out.println( false && false );
-		
-		System.out.println( true || true );
-		System.out.println( true || false );
+//		System.out.println( false && true );
+//		System.out.println( false && false );
+//		
+//		System.out.println( true || true );
+//		System.out.println( true || false );
 		System.out.println( false || true );
 		System.out.println( false || false );
 		

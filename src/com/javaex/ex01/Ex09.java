@@ -18,6 +18,7 @@ public class Ex09 {
 		System.out.println(n1!=n2);
 		
 		boolean result = n1 > n2;
+		System.out.println(result);
 
 	}
 
