@@ -20,7 +20,6 @@ public class Ex01 {
 		
 		System.out.println(str + str + "안녕하세요");
 		System.out.println(str + i);
-		String var01 = str+i;
 		System.out.println(str + "랑" + i);
 		
 		System.out.println(str + d);
